@@ -29,7 +29,7 @@ github_username:  rbogi
 linkedin_username: boglarka-racz
 
 # Build settings
-theme: minima
+theme: jekyll-theme-slate
 plugins:
   - jekyll-feed
 
