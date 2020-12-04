@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: single
 title: About
 permalink: /about/
 ---
@@ -17,4 +17,5 @@ Hence, I decided to be transparent about my experience, trials and errors, and o
 Follow me on this journey and I'd love to hear from you as well!
 
 All the best,
+
 Bogi
