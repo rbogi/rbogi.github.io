@@ -1,18 +1,17 @@
 ---
 layout: single
-title:  "Markdown"
+title:  "The data scientist starter pack - Markdown"
 date:   2020-12-10 14:23:55 +0100
 categories: starterpack
 header:
   image: /assets/images/markdown.png
-  teaser: /assets/images/programming_teaser.jpg
 
 ---
 
 If you are getting into data science, and you are coming from a non-technical background, you are at the right place!
 {: .text-justify}
 
-I am starting this series of blog posts that I call *The wannabe data scientist starter pack*, where I will attempt to summarize the must-have technical skills that you will need to master, in a straightforward, and hopefully easy-to-understand way.
+I am starting this series of blog posts that I call *The data scientist starter pack*, where I will attempt to summarize the must-have technical skills that you will need to master, in a straightforward, and hopefully easy-to-understand way.
 {: .text-justify}
 
 ---
