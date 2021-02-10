@@ -1,0 +1,88 @@
+---
+layout: single
+title:  "Markdown"
+date:   2020-12-10 14:23:55 +0100
+categories: starterpack
+header:
+  image: /assets/images/markdown.png
+  teaser: /assets/images/programming_teaser.jpg
+
+---
+
+If you are getting into data science, and you are coming from a non-technical background, you are at the right place!
+{: .text-justify}
+
+I am starting this series of blog posts that I call *The wannabe data scientist starter pack*, where I will attempt to summarize the must-have technical skills that you will need to master, in a straightforward, and hopefully easy-to-understand way.
+{: .text-justify}
+
+---
+
+I thought I’d start this series with an easy one: **Markdown**. It’s easy to learn, quick to understand, and awesome. Where will I use it, you ask? Well, in more places than you’d think. Just open any Jupyter notebook and check the nice looking cells with explanatory text, or open any Github project and check the README. That’s all created with Markdown. In fact, I wrote this very blog entry using markdown!
+{: .text-justify}
+
+If you type into Google „what is markdown”, you will get answers like it’s a „lightweight markup language”. If that confuses you, I’d rather try to explain it as a simple syntax to style text. Think about markdown as this: write some simple text, something that you could write in a text editor like Notepad, but which you can enrich by certain extra, non-alphabetic characters like the hash (\#), tilde (\~) or pipe (\|) sign that will help style it. So, it is different to the *What You See Is What You Get* type of word processors like Microsoft Word. You basically generate a simple text file containing Markdown syntax for styling and save it with the .md or .markdown extension, and then use a Markdown application to reder it.
+{: .text-justify}
+
+For example if you surround text with two asterisks (\*\*), it will be interpreted as bold formatting when displayed.
+{: .text-justify}
+
+```markdown
+**this will make this text bold**
+```
+Simple, right? This is the very basis of markdown.
+{: .text-justify}
+
+If you would like to get started, I have a few suggestions:
+{: .text-justify}
+
+First of all, go to [StackEdit](https://stackedit.io/) . I love this website and so will you! Simply click „Start writing” on the top of your screen, and it will lead you to an app where on the left hand side you have your area where you can enter markdown, and on the right handside you will see how it will look like, once rendered. The best thing though is that on the top ribbon you have buttons, (that you will know from your favorit text editor like Microsoft Word, Google Docs, etc.) that make the magic happen. You simply need to highlight text on the left and click a button (like Bold, or Italic, etc.). This will apply the relevant markdown syntax to your text and reder it on the right.
+{: .text-justify}
+
+This should get you started, but it won’t help you to actually learn markdown. The easiest way is of course, by doing. Markdown is easy to understand, but it can get more complicated with all the different variations ([flavors](https://gist.github.com/vimtaai/99f8c89e7d3d02a362117284684baa0f)). In this blog however, I just want to cover the fundamentals, so my suggestion is, get a cheatsheet and learn basic syntax. Print it out if you have to, and use it when you need it. Next time you use a Jupyter notebook, create a markdown cell, insert something and run it so it renders.
+{: .text-justify}
+
+If you’d like to learn more, I really like the  [Markdown Guide](https://www.markdownguide.org/). This site has all the information you will need regarding markdown for now. It also has a cheat sheet.
+{: .text-justify}
+
+And, once you get more comfortable, try to add a README.md file to your GitHub repository. Or, if you would like to take it up a notch, try generting a great looking report with [R markdown](https://rmarkdown.rstudio.com/) from R Studio.
+{: .text-justify}
+
+I’d like to close with highlighting a couple of features of markdown which you can use to make your text pop. Start with these, and you’ll get the hang of it quickly:
+{: .text-justify}
+
+### Bold, italics, strikethrough
+```markdown
+**bold**, *italic*, ~~strikethrough~~
+```
+
+### Headers
+```markdown
+# Heading level 1
+## Heading level 2
+### Heading level 3
+```
+
+### Ordered and unordered lists
+```markdown
+ 1. Item1
+ 2. Item2
+```
+```markdown
+ - Unordered item
+ - Another Unordered item
+```
+### Hyperlinks
+```markdown
+[text to display](https://somelinkontheweb.com/)
+```
+### Tables
+```markdown
+| Tables   |    Are      |  Cool |
+|----------|-------------|-------|
+| row 1    |      is     | $1600 |
+| row 2    |      is     |   $12 |
+| row 3    |      is     |    $1 |
+``` 
+I hope you enjoyed this post. Stay tuned for more.
+
+Good luck and happy coding!
