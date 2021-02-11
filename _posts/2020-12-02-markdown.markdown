@@ -1,7 +1,7 @@
 ---
 layout: single
 title:  "The data scientist starter pack - Markdown"
-date:   2020-12-10 14:23:55 +0100
+date:   2020-12-02 14:23:55 +0100
 categories: starterpack
 header:
   image: /assets/images/markdown.png
