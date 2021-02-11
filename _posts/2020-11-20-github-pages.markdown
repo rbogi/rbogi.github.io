@@ -5,6 +5,7 @@ date:   2020-11-20 12:22:30 +0100
 categories: general
 header:
   image: /assets/images/code_typing.png
+  teaser: /assets/images/programming_teaser.png
 
 ---
 

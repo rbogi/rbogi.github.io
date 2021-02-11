@@ -5,6 +5,7 @@ date:   2020-12-02 14:23:55 +0100
 categories: starterpack
 header:
   image: /assets/images/markdown.png
+  teaser: /assets/images/web_developer.png
 
 ---
 

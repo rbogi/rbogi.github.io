@@ -5,6 +5,7 @@ date:   2020-12-20 14:23:55 +0100
 categories: linux
 header:
   image: /assets/images/programmer.png
+  teaser: /assets/images/bash_terminal.png
 
 ---
 
