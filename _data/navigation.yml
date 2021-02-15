@@ -2,7 +2,7 @@ main:
   - title: "All Blogs Posts"
     url: /allblogposts/
   - title: "GitHub Projects"
-    url: /allblogposts/
+    url: /github_projects/
   - title: "About Me"
     url: /about/
 

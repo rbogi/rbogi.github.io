@@ -1,0 +1,60 @@
+---
+layout: single
+title:  "Time for Docker!"
+date:   2021-01-26 17:19:26 +0100
+categories: linux
+header:
+  image: /assets/images/docker.png
+  teaser: /assets/images/docker_teaser.png
+
+---
+
+So, in previous posts I described how I set up a data science development environment for myself, on Linux. Now it’s time to take it up a notch and look at Docker on Linux!
+{: .text-justify}
+
+---
+
+This will be in no way a comprehensive description of Docker, simply summarizing my understanding and observation so that hopefully readers can save some time going through technical documentation :) 
+{: .text-justify}
+
+If you have worked on machine learning projects, you certainly have come through at least the term Docker. You probably feel it that it is something very useful and the cool kids all use it, even throwing in terms like Kubernetes (or “Kube” as these mentioned cool kids like to call it). You know that it is something you should probably get familiar with, but how? I am starting my own learning in this and will share the most important things. This is the first such post in a series, so enjoy.
+{: .text-justify}
+
+Even before getting into what Docker is, let’s talk about why it is useful. We need to discuss **portability**. When I started AI and machine learning courses at the university, one of the first things we had to do was to install a bunch of things on our personal laptops that were prescribed by our professors. Then, using source control get the code we needed to run, and it often failed for many of the fellow students. Of course many were using Mac, others like me, Windows, and that didn’t help either. We quickly learned about dependencies, configuration, and as we needed to usually collaboratively work on projects and code, it was imperative that we can run everything smoothly. It also often happened, that the teachers who prepared the sample solutions and exercises on an older version of a framework, and of course when we installed the framework on our computers, it was already on a newer version. Add all these things together and you will see the complexity that you encounter once you move out from working only yourself, on your own code, on your own machine.
+{: .text-justify}
+
+Where Docker comes in, is that you can use it to encapsulate your whole development environment, together with your code (let’s call this package an image), and share that. [Docker Hub](https://hub.docker.com/) for instance is the biggest platform for sharing and downloading images.
+{: .text-justify}
+
+Now that we discussed why there is a justification and need for Docker, let’s see what it actually is. I really like how the Docker documentation summarizes it as “Docker enables you to separate your applications from your infrastructure”. This is the most important thing to understand about what Docker is. It is a software that lets you break free from all the dependencies and underlying infrastructure of your application.
+{: .text-justify}
+
+To speak the Docker language, I will list the most important terms here:
+{: .text-justify}
+
+**Container**: The container is the “box” that encapsulates your whole environment where you execute your application. It runs on a host machine that has the Docker platform installed on, regardless of what is installed on that host machine. This means that when you share your container with others, they will run the container on their end and the application will execute the same way, as the container is the actual lightweight environment where the code is run. So, the container becomes your unit of distribution and testing. A container can run anywhere where docker is present: your own laptop, a virtual machine in a data center, on the cloud, etc.
+{: .text-justify}
+
+**Image**: As we’ve seen, containers are virtual run-time environments that help you isolate your application with all its dependencies. The Docker image on the other hand is the template that is used to create the container. The image is like a list that contains all of your application dependencies, tools it needs to run, source code etc. You use this image to build and run your container (in that way, a container is a running image). Think about it as a blueprint with instructions for creating a Docker container.
+{: .text-justify}
+
+**Structure of Docker**: When you use Docker you will use a **command line interface (CLI)**. Here, you will type in commands to start a container, stop a container etc. These commands that you issue on the CLI will be sent to the component with is called the **Docker Daemon**. The daemon is constantly listening for your commands and based on them, manages the images, containers etc. So where do containers come from? The “database repositories” that contain these images are called **Docker registries**. Docker Hub for example is a public registry that you can use to pull Docker images to pull images and run them on your machine.
+{: .text-justify}
+
+So, there you have it! The very basics of understanding Docker.
+{: .text-justify}
+
+As some planned next steps – that I will of course capture in the blog – I would like to get Docker up and running, create a Docker account and give Docker Hub a go. I want to download and run some images, and as the ultimate challenge, create my own ones!
+{: .text-justify}
+
+**P.S.**: Of course you will come across something like [conda](https://docs.conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html) that can help a lot in dependency management. I am aware of this, but I admittedly am not entirely familiar with that, so I guess that is material for a different blog post :) 
+{: .text-justify}
+
+
+Sources:
+[https://docs.docker.com/get-started/overview/](https://docs.docker.com/get-started/overview/)
+[https://aws.amazon.com/blogs/opensource/why-use-docker-containers-for-machine-learning-development/](https://aws.amazon.com/blogs/opensource/why-use-docker-containers-for-machine-learning-development/)
+[https://phoenixnap.com/kb/docker-image-vs-container](https://phoenixnap.com/kb/docker-image-vs-container)
+[https://www.aquasec.com/cloud-native-academy/docker-container/docker-architecture/](https://www.aquasec.com/cloud-native-academy/docker-container/docker-architecture/)
+
+

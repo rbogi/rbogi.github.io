@@ -49,7 +49,7 @@ cat --help
 Also, you can find a lot of info on [this website](http://www.gnu.org/software/bash/manual/bash.pdf).
 {: .text-justify}
 
-Follow my next blog post as well where I will check out the basics about shell scripts.
+Follow my [next blog](/linux/2021/01/15/bash-scripting-2.html) post as well where I will check out the basics about shell scripts.
 {: .text-justify}
 
 
