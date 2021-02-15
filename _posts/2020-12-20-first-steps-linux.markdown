@@ -29,7 +29,7 @@ Whenever you read some installation documentation, you will find instructions ba
 The next thing is the sudo command that you can use in Terminal operations. You can remember it as “**S**uper**U**ser **DO**”, and what it does is it lets you – to use a familiar Windows analogy – work as an administrator. For installing software or other operations, you will find that the operating system restricts user access, to prevent any wrong doing. As your own superuser though, you would, from time to time, want to act with these elevated privileges. This is what sudo is for. You will need to supply your credentials also for this to work. By the way, in the Linux world the administrator is called “root” user. It's important to use the rigth terminology now that I am a root user :)
 {: .text-justify}
 
-So, here are the first lessons learned as a new Linux user. Go install some things and have fun!
+So, here are the first lessons learned as a new Linux user. Go install some things and have fun! Next, I will summarize what I learned about the Linux [file system](/linux/2020/12/26/linux-file-system.html). 
 {: .text-justify}
 
 Sources:
